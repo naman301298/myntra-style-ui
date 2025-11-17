@@ -45,3 +45,14 @@ header {
 .action_icon { font-size:20px; }
 .action_name { margin-top:4px; font-weight:600; }
 
+/* banner + offers */
+.banner_image { width:100%; display:block; }
+.banner_container { margin:40px 0; }
+
+.category_heading {
+  text-transform:uppercase; color:#3e4152; letter-spacing:0.15em;
+  font-size:1.8em; margin:50px 0 10px 30px; font-weight:700;
+}
+.category_items { display:flex; flex-wrap:wrap; justify-content:space-evenly; gap:18px; padding-bottom:30px; }
+.sale_item { width:250px; transition:transform .18s ease, box-shadow .18s ease; }
+.sale_item:hover { transform:translateY(-6px); box-shadow:0 8px 18px rgba(0,0,0,0.06); }
